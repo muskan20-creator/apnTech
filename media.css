@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+    .circle-wrapper {
+        transform: scale(0.9);
+    }
+}
+
+@media (min-width: 778px) {
+    header.container-fluid {
+        padding-top: 100px; /* Laptop par content niche chala jayega */
+    }
+    
+    .right-para {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+        .mobile.img {
+            position: relative;
+            right: 0;
+            bottom: 0;
+            width: 250px;
+            margin-top: 30px;
+        }
+}
+

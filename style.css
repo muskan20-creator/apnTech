@@ -1,0 +1,153 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn {
+    background-color: #FFD400;
+}
+
+.image {
+    max-width: 25%;
+}
+
+/* .img {
+    width: 10%;
+    max-width: 300px;
+    margin-left: -40px;
+    margin-top: -40px;
+} */
+
+#heading-1 {
+    margin-top: -20px;
+}
+
+.right-para {
+    margin-top: 9%;
+}
+
+.circle-wrapper {
+    position: relative;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.circle-top,
+.circle-bottom {
+    width: 80%;
+    /* Wrapper ki width ke hisab se set hoga */
+    height: auto;
+}
+
+.circle-bottom {
+    /* Negative margin se circles ko overlap karwayein */
+    margin-top: -120px;
+    position: relative;
+    z-index: 0;
+}
+
+.circle-top {
+    position: relative;
+    z-index: 1;
+}
+
+.img1 {
+    position: absolute;
+    top: 20px;
+    /* upar neeche control */
+    left: 50%;
+    transform: translateX(-50%) scale(1.10);
+    z-index: 3;
+    /* circles se zyada */
+}
+
+.left-para {
+    margin-top: -25px;
+}
+
+.img {
+    width: 10%;
+    max-width: 300px;
+    /* desktop limit */
+    height: auto;
+    margin-left: -60px;
+    margin-top: -40px;
+}
+
+.img2 {
+    width: 6%;
+    max-width: 200px;
+    /* desktop limit */
+    height: auto;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.custom-carousel-wrapper {
+    padding: 0 70px;
+    position: relative;
+}
+
+/* Buttons ko black background aur white arrows dena */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    /* Black background */
+    border-radius: 50%;
+    /* Round shape */
+    padding: 20px;
+    background-size: 50%;
+}
+
+/* Buttons ko slide se bahar move karna */
+.carousel-control-prev {
+    left: -70px;
+}
+
+.carousel-control-next {
+    right: -70px;
+}
+
+/* Content styling */
+.carousel-item-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.mobile-img {
+    position: absolute;
+    bottom: 10%;
+    /* Image ko section se thoda niche nikalne ke liye */
+    right: -55px;
+    width: 100%;
+    z-index: 10;
+    /* Design ke mutabiq adjust karen */
+}
+
+.mobile-img-container {
+    position: relative;
+}
+
+.project-section {
+    background-color: #F9F8F3;
+    /* Figma jaisa light background */
+    border-radius: 20px;
+    padding: 60px ;
+    padding-bottom: 0px;
+    position: relative;
+    overflow: visible;
+    /* Image ko bahar nikalne ke liye */
+    margin-top: 100px;
+}
+.last-container{
+    background-color: rgb(255, 232, 235);
+    
+}
+
+
+
+
+
